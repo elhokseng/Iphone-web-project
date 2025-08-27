@@ -158,7 +158,7 @@ nav ul {
 
 
 .hero-banner {
-  background: url("/asset/image/bannerihpne.jpg") center/cover no-repeat;
+  background: url("asset/image/bannerihpne.jpg") center/cover no-repeat;
   height: 550px;
   display: flex;
   align-items: center;
