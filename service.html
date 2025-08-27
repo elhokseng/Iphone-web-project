@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services • iPhone Store</title>
+
+  <!-- Global styles you already have -->
+  <link rel="stylesheet" href="/asset/style.css">
+  <!-- Page-scoped styles for Services -->
+  <link rel="stylesheet" href="/asset/services.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAV (reuse your existing markup) -->
+  <div id="navbar">
+    <nav>
+      <div class="logo">Iphone</div>
+      <ul>
+        <li class="search-box">
+          <input type="text" placeholder="Search..." />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </li>
+
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+        <li><a href="service.html" class="active"><i class="fa-solid fa-gear"></i> Services</a></li>
+        <li class="dropdown">
+          <details>
+            <summary><i class="fa-solid fa-user"></i> Account</summary>
+            <ul class="dropdown-menu">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <section class="svc-hero">
+    <div class="svc-container svc-hero-grid">
+      <div class="svc-hero-copy">
+        <span class="svc-eyebrow">Our Services</span>
+        <h1>Fast, transparent, and Apple-smart.</h1>
+        <p>Repairs, trade-ins, setup, data transfers, and extended warranty—done the right way, at the right price.</p>
+        <div class="svc-cta-row">
+          <a href="#pricing" class="svc-btn svc-btn--primary">View Pricing</a>
+          <a href="#faq" class="svc-btn svc-btn--ghost">FAQs</a>
+        </div>
+      </div>
+      <div class="svc-hero-media">
+        <img src="/asset/image/bannerihpne.jpg" alt="Service hero">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE CARDS -->
+  <section class="svc-section">
+    <div class="svc-container">
+      <div class="svc-section-head">
+        <h2>What we do</h2>
+        <p>Your phone, watch, and audio—covered end-to-end.</p>
+      </div>
+
+      <div class="svc-grid svc-grid--4">
+        <article class="svc-card">
+          <div class="svc-ico"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <h3>Repairs</h3>
+          <p>Screen, battery, camera, ports—OEM-grade parts, lab-tested, calibrated.</p>
+          <ul class="svc-list">
+            <li>Same-day screen swaps</li>
+            <li>Battery health certification</li>
+            <li>Water damage diagnostic</li>
+          </ul>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-ico"><i class="fa-solid fa-right-left"></i></div>
+          <h3>Trade-In</h3>
+          <p>Instant valuation and credit at checkout. Old device, new life.</p>
+          <ul class="svc-list">
+            <li>On-the-spot offers</li>
+            <li>Secure data wipe</li>
+            <li>Eco-friendly recycling</li>
+          </ul>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-ico"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3>Delivery & Setup</h3>
+          <p>Same-day delivery in select areas + pro setup at your door.</p>
+          <ul class="svc-list">
+            <li>Transfer contacts & data</li>
+            <li>App setup & iCloud</li>
+            <li>Privacy checkup</li>
+          </ul>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-ico"><i class="fa-solid fa-shield-heart"></i></div>
+          <h3>Warranty</h3>
+          <p>Extended coverage with easy claims. No stress, just support.</p>
+          <ul class="svc-list">
+            <li>12–24 month plans</li>
+            <li>Accident protection</li>
+            <li>Priority service</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS STRIP -->
+  <section class="svc-process">
+    <div class="svc-container">
+      <ol class="svc-steps">
+        <li><span>1</span>Choose a service</li>
+        <li><span>2</span>Get instant quote</li>
+        <li><span>3</span>Schedule pickup or visit</li>
+        <li><span>4</span>Track & get updates</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="svc-section">
+    <div class="svc-container">
+      <div class="svc-section-head">
+        <h2>Transparent pricing</h2>
+        <p>No hidden fees. Parts & labor included unless noted.</p>
+      </div>
+
+      <div class="svc-pricing">
+        <div class="svc-price-card">
+          <h4>Screen Repair</h4>
+          <p class="svc-price">$129–$279</p>
+          <ul class="svc-list">
+            <li>iPhone 11–15 series</li>
+            <li>OEM-grade parts</li>
+            <li>Same-day eligible</li>
+          </ul>
+          <a href="#book" class="svc-btn svc-btn--primary">Book now</a>
+        </div>
+
+        <div class="svc-price-card">
+          <h4>Battery Replacement</h4>
+          <p class="svc-price">$69–$149</p>
+          <ul class="svc-list">
+            <li>Battery health report</li>
+            <li>Calibration included</li>
+            <li>1-year part warranty</li>
+          </ul>
+          <a href="#book" class="svc-btn svc-btn--primary">Book now</a>
+        </div>
+
+        <div class="svc-price-card">
+          <h4>Back Glass</h4>
+          <p class="svc-price">$119–$199</p>
+          <ul class="svc-list">
+            <li>Laser separation</li>
+            <li>Factory-level finish</li>
+            <li>Next-day pickup</li>
+          </ul>
+          <a href="#book" class="svc-btn svc-btn--primary">Book now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="svc-section">
+    <div class="svc-container">
+      <div class="svc-section-head">
+        <h2>FAQs</h2>
+        <p>Answers to the stuff everyone asks.</p>
+      </div>
+
+      <div class="svc-faq">
+        <details>
+          <summary>How long do repairs take?</summary>
+          <p>Most jobs are same-day. Complex repairs can take 24–72 hours— we’ll text you status updates.</p>
+        </details>
+        <details>
+          <summary>Do you use genuine parts?</summary>
+          <p>We use OEM or equivalent grade parts and back them with a 12-month warranty.</p>
+        </details>
+        <details>
+          <summary>Is my data safe?</summary>
+          <p>Yes. We follow a no-access policy and can perform encrypted backups on request.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="svc-cta">
+    <div class="svc-container svc-cta-box">
+      <div>
+        <h2 class="svc-cta-title">Ready to fix or upgrade?</h2>
+        <p>Tell us your device + issue. We’ll quote it instantly.</p>
+      </div>
+      <a href="#book" class="svc-btn svc-btn--accent">Get instant quote</a>
+    </div>
+  </section>
+
+  <!-- FOOTER (reuse your existing) -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Iphone Store</h3>
+        <p>Premium Apple products at your fingertips. Discover iPhone, iWatch, AirPods, and more.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: support@iphonestore.com</p>
+        <p>Phone: +1 800 123 456</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 iPhone Store. All rights reserved.</p></div>
+  </footer>
+
+  <script>
+    // Optional: close other FAQs on open (clean UX)
+    document.querySelectorAll('.svc-faq details').forEach(d=>{
+      d.addEventListener('toggle', ()=>{
+        if(d.open){
+          document.querySelectorAll('.svc-faq details').forEach(o=>{ if(o!==d) o.removeAttribute('open'); });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
